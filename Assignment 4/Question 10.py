@@ -1,0 +1,5 @@
+lst = (11,27,36,46,58,69,78,87,98,10)
+print("Original List: ",lst)
+result = map(lambda x : x + x + x, lst)
+print("Triple of said list numbers: ")
+print(list(result))
